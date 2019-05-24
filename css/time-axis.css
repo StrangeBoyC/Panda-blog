@@ -1,77 +1,4 @@
-body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, form, input, textarea, select{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-body{
-    background-color: #e9eaed ;
-    font-family: "Adobe 仿宋 Std R", "Adobe 黑体 Std R","Microsoft YaHei UI Light",sans-serif;
-    font-size: 16px;
-    color: #333333;
-    /*line-height: 1.5;*/
-}
-a{
-    color: #fff;
-    /*去掉下划线*/
-    text-decoration: none;
-}
-img{
-    width: 100%;
-    height: 100%;
-    display: block;
-}
-
-.header{
-    width: 100%;
-    height: 50px;
-    background: #001640;
-    margin-bottom: 20px;
-}
-.header::before {
-    background: #000 linear-gradient(to left, #4cd964, #5ac8fa, #007aff, #34aadc, #5856d6, #ff2d55);
-    content: "";
-    height: 5px;
-    position: absolute;
-    top: 0;
-    width: 100%;
-}
-.headerBox{
-    width: 1200px;
-    height: 50px;
-    margin: 0 auto;
-    line-height: 50px;
-}
-.headerBox h1{
-    height: 100%;
-    font-size: 26px;
-    float: left;
-    font-weight: 600;
-}
-.headerBox h1 img{
-    width:26px;
-    height:26px;
-    display: inline-block;
-    vertical-align: middle;
-}
-.headerBox ul{
-    height: 100%;
-    margin-left: 80px;
-    float: left;
-}
-.headerBox ul li{
-    font-size: 17px;
-    float: left;
-    margin-right: 40px;
-}
-.headerBox ul li a:hover{
-    color: #60f7ff;
-}
-.headerBox .search{
-    width: 32px;
-    height: 32px;
-    float: right;
-    padding: 9px;
-}
+@import "base.css";
 
 .background{
     width: 1140px;
@@ -125,8 +52,8 @@ img{
     font-size: 15px;
     line-height: 32px;
     padding-right: 40px;
-    font-weight: bold;
     position: relative;
+    font-family: Microsoft YaHei;
 
 }
 .past li span::after{
@@ -168,14 +95,6 @@ img{
 
 }
 
-.line{
-    width: 2px;
-    height: 800px;
-    background: #cccaca;
-    position: absolute;
-    top: 20px;
-    left: 170px;
-}
 
 .page{
     width: 100%;
@@ -201,12 +120,5 @@ img{
     color: white;
 }
 
-.top{
-    width: 26px;
-    height: 26px;
-    padding: 7px;
-    background: #000000;
-    position: fixed;
-    right: 25px;
-    bottom: 50px;
-}
+
+

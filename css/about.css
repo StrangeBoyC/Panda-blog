@@ -1,0 +1,69 @@
+@import "base.css";
+
+.background{
+    width: 1140px;
+    background: white;
+    border-radius: 5px;
+    margin: 20px auto 200px;
+    padding: 20px 40px;
+    position: relative;
+}
+.back{
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 150px;
+    height: 250px;
+}
+.background .recommend{
+    overflow: hidden;
+    margin: 20px 0
+}
+.background .recommend .thum{
+    width: 100px;
+    float: left;
+    margin-right: 10px;
+    background: linear-gradient(to top right, rgba(0,153,255,.9), rgba(42,228,197,.7));
+    display: block;
+    padding: 2px;
+    border-radius: 50%;
+    position: relative;
+}
+.background .recommend .thum img{
+    width: 100%;
+    border-radius: 50%;
+}
+.background .recommend .thum .v{
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+}
+.background .recommend .text{
+    float: left;
+    width: 1000px;
+}
+.background .recommend .text h2{
+    margin: 10px 0;
+    font-size: 18px;
+    font-weight: bolder;
+}
+.background .recommend .text p{
+    color: #666;
+    margin-bottom: 5px
+}
+.background  >h3{
+    margin: 40px 0 20px;
+    font-size: 18px;
+    background: url("../image/h.png") no-repeat bottom right;
+    width: 120px;
+    border-bottom: 1px dashed #000 ;
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+.background >p{
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
