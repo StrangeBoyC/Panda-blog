@@ -159,6 +159,7 @@ img{
     padding: 3px 5px;
     background: #12b7de;
     font-size: 14px;
+    z-index: 999;
 }
 .article-left img{
     transition: all 0.5s ease;
