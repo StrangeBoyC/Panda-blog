@@ -5,13 +5,14 @@
     <title>Panda数码测评</title>
     <link rel="shortcut icon" href="./image/001.ico" type="image/x-icon" />
     <link rel="stylesheet" href="./css/index.css">
+    <script src="js/index.js"></script>
 </head>
 <body>
     <a name="top"></a>
     <div class="header">
         <div class="headerBox">
 <!--            <div class="hText">评测中心</div>-->
-            <h1><a href="index.html"><img src="image/001.ico" alt="">Panda数码测评</a></h1>
+            <h1><a href="index.html" id="home"><img src="image/001.ico" alt="">Panda数码测评</a></h1>
             <ul>
                 <li><a href="" style="color: #60f7ff">网站首页</a></li>
                 <li><a href="./phone.html">手机</a></li>
@@ -29,20 +30,20 @@
     <div class="photo">
         <div class="photo-left">
             <ul class="turns">
-                <li>
+                <li style="z-index:99">
                     <a href=""><img src="./image/desk.jpg" alt="fail" title="MacBook"></a>
                 </li>
                 <li><a href=""><img src="./image/huaweiBook.jpg" alt="fail" title="华为笔记本"></a></li>
                 <li><a href=""><img src="./image/Lenovo.jpg" alt="fail" title="Lenovo"></a></li>
                 <li><a href=""><img src="./image/xiaomiAir.jpg" alt="fail" title="小米笔记本"></a></li>
             </ul>
-            <div class="left-btn"><img src="./image/left.png" alt="fail" title="上一张"></div>
-            <div class="right-btn"><img src="./image/right.png" alt="fail" title="下一张"></div>
-            <ul class="radio">
-                <li></li>
-                <li></li>
-                <li></li>
+            <div class="left-btn" style="z-index: 999"><img src="./image/left.png" alt="fail" title="上一张"></div>
+            <div class="right-btn" style="z-index: 999"><img src="./image/right.png" alt="fail" title="下一张"></div>
+            <ul class="radio" style="z-index: 999">
                 <li style="background: #12b7de"></li>
+                <li></li>
+                <li></li>
+                <li></li>
             </ul>
         </div>
 
@@ -80,7 +81,7 @@
         <div class="daily-left">
             <div class="daily-left-title">
                 <ul>
-                    <li><div><a>小泽vlog</a></div></li>
+                    <li><a class="title-hot">小泽vlog</a></li>
                     <li><a>昨日新闻</a></li>
                     <li><a>开箱视频</a></li>
                     <li><a>拆机视频</a></li>
