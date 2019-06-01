@@ -97,7 +97,7 @@ img{
     width: 100%;
     height: 100%;
     position: absolute;
-    left: 0;
+    left: 619px;
     top: 0;
 }
 .photo-left ul li a{
@@ -148,6 +148,9 @@ img{
     cursor: pointer;
 }
 .photo-left .radio li:hover{
+    background: #12b7de
+}
+.photo-left .radio li.hot{
     background: #12b7de
 }
 
