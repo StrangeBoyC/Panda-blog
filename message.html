@@ -80,13 +80,29 @@
                 </li>
                 <li>
                     <span>留言：</span>
+                    <span>已写</span><span id="already"></span><span>字，最多剩余</span><span id="left"></span><span>字</span>
                 </li>
                 <li>
-                    <textarea name="lyText" id="lyText" cols="" rows="10"></textarea>
+                    <textarea name="lyText" id="lyText" cols="" rows="10" maxlength="25"></textarea>
                 </li>
                 <li>
                     <input type="reset" name="reset">
                     <input type="submit" name="submit">
+                </li>
+                <li>
+                    <ul class="message">
+                        <li>
+                            <div class="thum"><img src="./image/tx1.jpg" alt="fail"></div>
+                            <div class="text">
+                                <p><b>zhangsan</b> <span>2019-06-03</span></p>
+                                <p>你好呦</p>
+                            </div>
+                        </li>
+                        <li class="reply">
+                            <p><b>站长回复：</b><span>欢迎您的来访，感谢您的留言。</span></p>
+                        </li>
+
+                    </ul>
                 </li>
             </ul>
         </form>
@@ -118,6 +134,6 @@
         <img src="./image/top.png" alt="fail">
     </div>
 </a>
-
+<script src="js/message.js"></script>
 </body>
 </html>
